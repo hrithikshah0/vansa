@@ -217,3 +217,132 @@ ul {
   gap: 50px;
   font-size: 1.5rem;
 }
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+  z-index: 1001;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.modal-close:hover {
+  background-color: var(--accent-color);
+  color: var(--accent-color-dark);
+}
+
+/* Modal specific adjustments for SignIn form */
+.modal-content .signin-form {
+  width: 100%;
+  max-width: 800px;
+}
+
+.modal-content .signin-form .container {
+  max-width: 800px;
+  max-height: 600px;
+  padding: 0;
+}
+
+.modal-content .signin-form .form-container {
+  min-height: 600px;
+  max-height: 600px;
+}
+
+.modal-content .signin-form .left,
+.modal-content .signin-form .right {
+  height: 600px;
+}
+
+.modal-content .signin-form .left {
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-content .signin-form .image {
+  position: absolute;
+  top: 40px;
+}
+
+.modal-content .signin-form .image img {
+  max-width: 120px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    max-width: 95vw;
+    margin: 10px;
+  }
+  
+  .modal-content .signin-form .container {
+    max-height: none;
+  }
+  
+  .modal-content .signin-form .form-container {
+    flex-direction: column;
+    min-height: auto;
+    max-height: none;
+  }
+  
+  .modal-content .signin-form .left,
+  .modal-content .signin-form .right {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+  }
+  
+  .modal-content .signin-form .left {
+    order: 2;
+    min-height: 250px;
+  }
+  
+  .modal-content .signin-form .right {
+    order: 1;
+    padding: 30px 20px;
+  }
+  
+  .modal-content .signin-form .image {
+    position: relative;
+    top: auto;
+  }
+  
+  .modal-content .signin-form .signin input,
+  .modal-content .signin-form .signin-details a {
+    max-width: 100%;
+  }
+}
