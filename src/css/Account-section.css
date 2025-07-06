@@ -1,0 +1,97 @@
+
+:root {
+  --Explore-menu-card: #f8f3f3;
+  --text-color: #5C5C5C;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #D0F0FD;
+  --accent-color-dark: #005F8F;
+  --padding-inline-section: 15px;
+}
+
+
+
+/* Navigation Section */
+
+.navigation-section{
+    background-color: var(--accent-color);
+}
+.navigation-section p{
+    font-size: 0.9rem;
+}
+.navigation-container{
+    gap: 20px;
+    padding-block: 30px;
+}
+
+/* Account Section */
+
+.account{
+    background-color: var(--Explore-menu-card);
+}
+.account-container{
+    padding-block: 50px;
+    gap: 50px;
+}
+.my-profile{
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: var(--secondary-text-color);
+    align-items: flex-start;
+}
+.bottom-border{
+    width: 250px;
+    padding: 15px;
+    border-bottom: 1px solid var(--Explore-menu-card);
+}
+.account-option a:hover{
+   background-color: var(--accent-color);
+   color: var(--primary-text-color);
+}
+.active-status{
+    background-color: var(--accent-color);
+}
+.account-option{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.right-account-section{
+    width: 70%;
+}
+.my-profile-content{
+    border-radius: 15px;
+    height: 396px;
+    padding: 30px;
+    background-color: var(--secondary-text-color);
+}
+.form-update{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.account-section-header{
+    width: 100%;
+   padding-bottom: 5px;
+   border-bottom: 1px solid var(--Explore-menu-card);
+}
+.profile-details{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+.profile-details input{
+    height: 40px;
+    width: 355px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+.input-section{
+    gap: 30px;
+}
+.input-details{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+

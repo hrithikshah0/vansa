@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+/* RESET CLASSES */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --Explore-menu-card: #f8f3f3;
+  --text-color: #5C5C5C;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #D0F0FD;
+  --accent-color-dark: #005F8F;
+  --padding-inline-section: 15px;
+}
+
+body {
+  font-family: 'Poppins', 'sans-serif';
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+
+p {
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 0.7rem;
+  color: var(--primary-text-color);
+  line-height: 1.5;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* UTILITIES CLASSES */
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: var(--padding-inline-section);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-links {
+  color: var(--primary-text-color);
+}
+
+.hover-links:hover {
+  color: var(--accent-color);
+  transition: 0.2s ease-out;
+}
+
+.primary-btn {
+  background-color: white;
+  border: 0.5px solid var(--accent-color-dark);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--accent-color-dark) !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+
+.primary-btn:hover {
+  background-color: var(--accent-color-dark);
+  color: white !important;
+}
+
+.secondary-btn {
+  border: 0.5px solid var(--primary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color) !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+
+.secondary-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+
+
+
+
+
+/* Navbar Section */
+
+.main-nav {
+  justify-content: space-between;
+}
+.logo{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.logo p{
+    font-size: 0.7rem;
+  color: var(--text-color);
+}
+.nav-links ul {
+  gap: 40px;
+}
+.present-nav{
+  color: var(--accent-color-dark);
+}
+
+
+
+
+/* App Banner Section */
+
+.app-banner-section{
+  background-color: var(--accent-color);
+}
+.banner-container{
+  justify-content: space-between;
+}
+.left-section{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+.left-upper p{
+  color: var(--text-color);
+}
+.left-lower{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.store{
+  gap: 20px;
+}
+.left-section p{
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+
+.footer-section{
+   color: white;
+  background-color: var(--primary-text-color);
+}
+.footer-container{
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-block: 80px;
+}
+.footer-container a{
+  font-size: 0.8rem;
+  color: white;
+}
+.left-footer{
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.left-footer p{
+  color: var(--secondary-text-color);
+}
+.right-footer{
+  gap: 50px;
+  align-items: flex-start;
+}
+.contact-details{
+  padding-left: 20px;
+  border-left: 1px solid var(--text-color);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.contact-details p{
+  color: var(--secondary-text-color);
+}
+.details{
+  font-size: 0.8rem;
+  gap: 10px;
+}
+.details p{
+   font-size: 0.8rem;
+}
+
+/* Sub Footer Section */
+
+.subfooter-section{
+  background-color: var(--accent-color-dark);
+}
+.subfooter-content{
+  justify-content: space-between;
+}
+.subfooter-social-icon{
+  gap: 50px;
+  font-size: 1.5rem;
+}

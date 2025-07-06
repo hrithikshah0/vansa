@@ -1,0 +1,230 @@
+:root {
+  --Explore-menu-card: #f8f3f3;
+  --text-color: #5C5C5C;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #D0F0FD;
+  --accent-color-dark: #005F8F;
+  --padding-inline-section: 15px;
+}
+
+.hero-image {
+  width: 100vw;
+}
+
+
+/* Navbar Section */
+
+.main-nav {
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logo p {
+  color: var(--text-color);
+}
+
+.search input {
+  height: 40px;
+  background-color: var(--accent-color);
+  border: 0px;
+  padding: 10px;
+  font-size: 1rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.search i {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  background-color: var(--accent-color-dark);
+  font-size: 1rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.nav-links ul {
+  gap: 40px;
+}
+
+.present-nav {
+  color: var(--accent-color-dark);
+}
+
+/* Hero Section */
+
+.hero-section {
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Explore Menu Section */
+
+.explore-menu-section {
+  padding-bottom: 20px;
+}
+
+.explore-menu {
+  flex-direction: column;
+}
+
+.menu-content {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.explore-menu-card {
+  height: 200px;
+  width: 180px;
+  background-color: var(--Explore-menu-card);
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.explore-menu-card:hover {
+  background-color: var(--accent-color);
+}
+
+.explore-menu {
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.menu-item {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item1 {
+  background-image: url(Image/Explore-menu-section/Biryani.png);
+  background-size: contain;
+}
+
+.item2 {
+  background-image: url(Image/Explore-menu-section/Fried-rice-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item3 {
+  background-image: url(Image/Explore-menu-section/nan-roti-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item4 {
+  background-image: url(Image/Explore-menu-section/Curry-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item5 {
+  background-image: url(Image/Explore-menu-section/Momo-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item6 {
+  background-image: url(Image/Explore-menu-section/noodles-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item7 {
+  background-image: url(Image/Explore-menu-section/Pasta-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item8 {
+  background-image: url(Image/Explore-menu-section/Starter-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item9 {
+  background-image: url(Image/Explore-menu-section/Pizza-removebg-preview.png);
+  background-size: 150px;
+}
+
+.item10 {
+  background-image: url(Image/Explore-menu-section/Burger.webp);
+  background-size: 150px;
+}
+
+.item11 {
+  background-image: url(Image/Explore-menu-section/Beverage.webp);
+  background-size: 150px;
+}
+
+/* Special & Top Selling Product section */
+
+.stsp-section {
+  background-color: var(--Explore-menu-card);
+}
+
+.stsp-container {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.special-item {
+  gap: 10px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.special-item-card {
+  width: 275px;
+  height: 430px;
+  background-color: white;
+  border-radius: 4px;
+  margin-block: 15px;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.special-item-card:hover {
+  border: 1px solid var(--accent-color-dark);
+}
+
+.card-container {
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.card-background {
+  height: 253px;
+  width: 253px;
+  border-radius: 4px;
+  /* background-image: url(Image/Food-background/Background.webp);
+  background-size: cover; */
+}
+
+.item-name-description {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.item-name {
+  gap: 5px;
+  position: relative;
+  left: 15px;
+}
+
+.item-description {
+  text-align: left;
+  padding-inline: var(--padding-inline-section);
+}
+
+.item-description p {
+  color: var(--text-color);
+}
+
+.price-cart {
+  gap: 50px;
+}

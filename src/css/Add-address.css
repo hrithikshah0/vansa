@@ -1,0 +1,59 @@
+
+:root {
+  --Explore-menu-card: #f8f3f3;
+  --text-color: #5C5C5C;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #D0F0FD;
+  --accent-color-dark: #005F8F;
+  --padding-inline-section: 15px;
+}
+
+
+/* Navigation Section */
+
+.navigation-section{
+    background-color: var(--accent-color);
+}
+.navigation-section p{
+    font-size: 0.9rem;
+}
+.navigation-container{
+    gap: 20px;
+    padding-block: 30px;
+}
+
+
+/* Form Section */
+
+.address-form{
+  background-color: var(--Explore-menu-card);
+  padding-block: 30px;
+}
+.form-container{
+    justify-content: center;
+}
+.add-address-container{
+    background-color: var(--secondary-text-color);
+    border-radius: 8px;
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.address-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.address-content input{
+    padding: 10px;
+    height: 40px;
+    width: 400px;
+}
+.address-content textarea{
+    padding: 10px;
+    height: 80px;
+    width: 400px;
+}

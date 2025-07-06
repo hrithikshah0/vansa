@@ -1,0 +1,47 @@
+
+:root {
+  --Explore-menu-card: #f8f3f3;
+  --text-color: #5C5C5C;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #D0F0FD;
+  --accent-color-dark: #005F8F;
+  --padding-inline-section: 15px;
+}
+
+
+/* Navigation Section */
+
+.navigation-section{
+    background-color: var(--accent-color);
+}
+.navigation-section p{
+    font-size: 0.9rem;
+}
+.navigation-container{
+    gap: 20px;
+    padding-block: 30px;
+}
+
+/* Offers Details Section */
+
+.offer-details-section{
+    justify-content: center;
+    padding-block: 40px;
+    background-color: var(--Explore-menu-card);
+    border-radius: 15px;
+}
+.offer-container{
+    width: 100%;
+    height: 400px;
+    background-color: var(--secondary-text-color);
+    justify-content: center;
+}
+.offer-details{
+   text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+
