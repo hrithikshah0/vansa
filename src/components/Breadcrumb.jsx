@@ -1,17 +1,17 @@
 import React from 'react'
 import { FaGreaterThan } from 'react-icons/fa'
 
-const Breadcrumb = () => {
+const Breadcrumb = ({current}) => {
   return (
-    <section class="navigation-section">
-      <div class="container navigation-container flex">
+    <section className="navigation-section">
+      <div className="container navigation-container flex">
         <a href="Home.html">
 
           {/* style="color:darkgrey;" */}
           <p>Home</p>
         </a>
         <p><FaGreaterThan /></p>
-        <p>Cart</p>
+        <p>{current}</p>
       </div>
     </section>
   )
