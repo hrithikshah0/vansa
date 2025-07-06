@@ -26,6 +26,7 @@ function App() {
         <Route path="/account/profile" element={<Profile />} />
         <Route path="/account/my-orders" element={<MyOrder />} />
         <Route path="/account/change-password" element={<ChangePassword />} />
+        <Route path="/account/*" element={<Profile />} />
       </Route>
     </Routes>
   )

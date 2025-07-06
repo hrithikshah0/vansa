@@ -14,7 +14,11 @@ function MyOrder() {
                         <a href="/After-login-Pages/Home-after-login.html" class="hover-links primary-btn">Go Back To Homepage</a>
                     </div>
                 </div>
+                <div class="favorite-details flex">
+                    
+                </div>
             </div>
+
         </div>
     )
 }

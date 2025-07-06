@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
+
+
 :root {
   --Explore-menu-card: #f8f3f3;
   --text-color: #5C5C5C;
@@ -17,6 +19,7 @@
   --accent-color-dark: #005F8F;
   --padding-inline-section: 15px;
 }
+
 
 body {
   font-family: 'Poppins', 'sans-serif';
