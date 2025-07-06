@@ -6,7 +6,9 @@ const Breadcrumb = () => {
     <section class="navigation-section">
       <div class="container navigation-container flex">
         <a href="Home.html">
-          <p style="color:darkgrey;">Home</p>
+
+          {/* style="color:darkgrey;" */}
+          <p>Home</p>
         </a>
         <p><FaGreaterThan /></p>
         <p>Cart</p>
