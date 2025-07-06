@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 const SubFooter = () => {
     return (
@@ -7,9 +10,9 @@ const SubFooter = () => {
                 <div>©2025 Vansa®. All Rights Reserved</div>
 
                 <div className="subfooter-social-icon flex">
-                    <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i className="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><FaFacebook /></a>
+                    <a href="#"><FaInstagram /></a>
+                    <a href="#"><FaTiktok /></a>
                 </div>
             </div>
         </footer>

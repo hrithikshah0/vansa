@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaEnvelope } from 'react-icons/fa'
+import { FaLocationDot } from 'react-icons/fa6'
+import { IoCallSharp } from 'react-icons/io5'
 
 const Footer = () => {
     return (
@@ -39,15 +42,15 @@ const Footer = () => {
                             <h4>GET IN TOUCH</h4>
                         </div>
                         <div className="details flex">
-                            <i className="fa-solid fa-location-dot"></i>
+                           <FaLocationDot />
                             <p>College Road 10, Biratnagar 56613, Nepal</p>
                         </div>
                         <div className="details flex">
-                            <i className="fa-solid fa-phone"></i>
+                            <IoCallSharp />
                             <p>9874561230, 9812365470</p>
                         </div>
                         <div className="details flex">
-                            <i className="fa-solid fa-envelope"></i>
+                            <FaEnvelope />
                             <p>vansa123@gmail.com</p>
                         </div>
                     </div>
